@@ -9,7 +9,7 @@ using Newtonsoft.Json;
 
 public class RCGWalletConnect : MonoBehaviour
 {
-    private string apiUrl = "";
+    private string apiUrl = "https://frogjump-api-76d4f5ca5592.herokuapp.com/";
     private float elapsed = 0f;
     private string address = "";
     // Start is called before the first frame update
